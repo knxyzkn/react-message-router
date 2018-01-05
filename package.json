@@ -16,7 +16,7 @@
     "react",
     "javascript",
     "message",
-    "messaging"
+    "messaging",
     "router",
     "iMessage",
     "text",
@@ -43,10 +43,6 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1"
   },
-  "peerDependencies": {
-    "react": "^16.2.0",
-    "webpack": "^2.6.1"
-  },
   "babel": {
     "presets": [
       "es2015",
@@ -55,6 +51,8 @@
     ]
   },
   "dependencies": {
+    "react": "^16.2.0",
+    "webpack": "^2.6.1",
     "encodeurl": "^1.0.1"
   }
 }
