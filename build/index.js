@@ -45,15 +45,17 @@ module.exports =
 /* 0 */
 /***/ function(module, exports) {
 
-	import _TextMessage from './TextMessage.js';
-	import _WhatsappMessage from './WhatsappMessage.js';
-	import _FacebookMessage from './FacebookMessage.js';
-	import _FBMessengerShareLink from './FBMessengerShareLink.js';
+	import TextMessage from './TextMessage.js';
+	import WhatsappMessage from './WhatsappMessage.js';
+	import FacebookMessage from './FacebookMessage.js';
+	import FBMessengerShareLink from './FBMessengerShareLink.js';
 
-	export {_TextMessage as TextMessage};
-	export {_WhatsappMessage as WhatsappMessage};
-	export {_FacebookMessage as FacebookMessage};
-	export {_FBMessengerShareLink as FBMessengerShareLink};
+	export {
+	  TextMessage,
+	  WhatsappMessage,
+	  FacebookMessage,
+	  FBMessengerShareLink
+	}
 
 
 /***/ }
