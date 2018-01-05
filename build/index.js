@@ -50,7 +50,7 @@ module.exports =
 	import FacebookMessage from './FacebookMessage.js';
 	import FBMessengerShareLink from './FBMessengerShareLink.js';
 
-	export {
+	module.exports = {
 	  TextMessage,
 	  WhatsappMessage,
 	  FacebookMessage,
