@@ -3,7 +3,7 @@ import WhatsappMessage from './WhatsappMessage.js';
 import FacebookMessage from './FacebookMessage.js';
 import FBMessengerShareLink from './FBMessengerShareLink.js';
 
-export {
+module.exports = {
   TextMessage,
   WhatsappMessage,
   FacebookMessage,
