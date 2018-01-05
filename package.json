@@ -1,6 +1,6 @@
 {
   "name": "react-message-router",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component that routes to messaging apps",
   "main": "build/index.js",
   "scripts": {
