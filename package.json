@@ -1,0 +1,60 @@
+{
+  "name": "react-message-router",
+  "version": "1.0.0",
+  "description": "React component that routes to messaging apps",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knxyzkn/react-message-router.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "message",
+    "messaging"
+    "router",
+    "iMessage",
+    "text",
+    "text message",
+    "whatsapp",
+    "facebook",
+    "facebook messenger",
+    "share",
+    "link",
+    "react-router",
+    "message-router"
+  ],
+  "author": "Kaushik Nagaraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knxyzkn/react-message-router/issues"
+  },
+  "homepage": "https://github.com/knxyzkn/react-message-router#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "webpack": "^2.6.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "encodeurl": "^1.0.1"
+  }
+}
