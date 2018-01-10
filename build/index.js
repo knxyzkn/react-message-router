@@ -388,42 +388,30 @@ exports.default = WhatsappMessage;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.FBMessengerShareLink = exports.FacebookMessage = exports.WhatsappMessage = exports.TextMessage = undefined;
 
 var _TextMessage = __webpack_require__(4);
 
-Object.defineProperty(exports, 'TextMessage', {
-  enumerable: true,
-  get: function get() {
-    return _TextMessage.TextMessage;
-  }
-});
+var _TextMessage2 = _interopRequireDefault(_TextMessage);
 
 var _WhatsappMessage = __webpack_require__(5);
 
-Object.defineProperty(exports, 'WhatsappMessage', {
-  enumerable: true,
-  get: function get() {
-    return _WhatsappMessage.WhatsappMessage;
-  }
-});
+var _WhatsappMessage2 = _interopRequireDefault(_WhatsappMessage);
 
 var _FacebookMessage = __webpack_require__(3);
 
-Object.defineProperty(exports, 'FacebookMessage', {
-  enumerable: true,
-  get: function get() {
-    return _FacebookMessage.FacebookMessage;
-  }
-});
+var _FacebookMessage2 = _interopRequireDefault(_FacebookMessage);
 
 var _FBMessengerShareLink = __webpack_require__(2);
 
-Object.defineProperty(exports, 'FBMessengerShareLink', {
-  enumerable: true,
-  get: function get() {
-    return _FBMessengerShareLink.FBMessengerShareLink;
-  }
-});
+var _FBMessengerShareLink2 = _interopRequireDefault(_FBMessengerShareLink);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.TextMessage = _TextMessage2.default;
+exports.WhatsappMessage = _WhatsappMessage2.default;
+exports.FacebookMessage = _FacebookMessage2.default;
+exports.FBMessengerShareLink = _FBMessengerShareLink2.default;
 
 /***/ })
 /******/ ]);
