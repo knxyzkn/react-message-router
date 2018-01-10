@@ -50,12 +50,14 @@ module.exports =
 	import FacebookMessage from './FacebookMessage.js';
 	import FBMessengerShareLink from './FBMessengerShareLink.js';
 
-	export {
+	const ReactMessageRouter = {
 	  TextMessage,
 	  WhatsappMessage,
 	  FacebookMessage,
 	  FBMessengerShareLink
 	}
+
+	export default ReactMessageRouter;
 
 
 /***/ }

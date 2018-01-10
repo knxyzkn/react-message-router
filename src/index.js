@@ -3,9 +3,11 @@ import WhatsappMessage from './WhatsappMessage.js';
 import FacebookMessage from './FacebookMessage.js';
 import FBMessengerShareLink from './FBMessengerShareLink.js';
 
-export {
+const ReactMessageRouter = {
   TextMessage,
   WhatsappMessage,
   FacebookMessage,
   FBMessengerShareLink
 }
+
+export default ReactMessageRouter;
