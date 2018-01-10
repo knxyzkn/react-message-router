@@ -1,6 +1,6 @@
 {
   "name": "react-message-router",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "React component that routes to messaging apps",
   "main": "build/index.js",
   "scripts": {
@@ -41,7 +41,8 @@
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.24.1"
   },
   "babel": {
     "presets": [
@@ -51,8 +52,8 @@
     ]
   },
   "dependencies": {
+    "encodeurl": "^1.0.1",
     "react": "^16.2.0",
-    "webpack": "^2.6.1",
-    "encodeurl": "^1.0.1"
+    "webpack": "^2.6.1"
   }
 }
